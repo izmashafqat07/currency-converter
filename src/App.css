@@ -1,0 +1,44 @@
+.main-div{
+  height:96vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.currency-converter-div{
+  height: 400px;
+  width: 350px;
+  background-color: white;
+  box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.32);
+  -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.32);
+  border-radius: 20px;
+}
+.curr-converter-head{
+  text-align: center;
+}
+.amount-converted{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.options-selecting-div{
+
+ /* background-color: yellow; */
+ display: flex;
+ justify-content: space-around;
+gap: 0px;
+margin-top: 50px;
+
+}
+.convert-btn{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.convert-btn button{
+  width: 80%;
+height: 30px;
+}
